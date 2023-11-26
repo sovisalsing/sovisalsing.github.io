@@ -1,0 +1,290 @@
+@font-face {
+    font-family: funan;
+    font-style: normal;
+    font-weight: 200;
+    font-stretch: normal;
+    src: url("http://www.rupp.edu.kh/fonts/NiDAFunan.ttf") format("truetype")
+}
+
+
+body {
+    background: #fff url('../images/body_bg.jpg') repeat-x top left;
+    font: 12px Arial, Helvetica, FreeSans, sans-serif;
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: normal;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+h2 {
+    color: #222;
+    font-size: 16px;
+    margin: 0px 0px 10px 0px;
+}
+
+p {
+    line-height: 18px;
+    margin: 0px 0px 15px 0px;
+    text-align: justify
+}
+
+p.kh {
+    font-size: 16px;
+    line-height: 22px;
+    margin: 0px 0px 15px 0px;
+}
+
+a {
+    color: #900;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.head {
+    background: url('../images/hpg.jpg') top left repeat-x #f2f2f2;
+    border-bottom: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    padding: 15px 10px 10px 10px;
+    margin: 5px 0;
+    margin-bottom: 10px;
+}
+
+#container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+/**********************************************
+ ------------header---------------------------
+ **********************************************/
+
+#header {
+    width: 100%;
+    height: 130px;
+    background-color: #eef2f4;
+    color: #900;
+}
+
+#header #logo {
+    width: 110px;
+    height: 130px;
+    /*background:url('../images/rupp-logo.png') no-repeat left center;*/
+    display: block;
+    float: left;
+
+}
+
+#header #logo img {
+    margin-top: 15px;
+    border: 0;
+}
+
+#header #text {
+
+    margin: 0;
+
+    float: left;
+
+    color: #333;
+
+    text-align: left;
+
+    vertical-align: middle;
+
+    display: table-cell;
+    text-align: center;
+}
+
+
+#header #text h4 {
+    color: #222;
+    padding: 0;
+
+    margin: 0 0 0 20px;
+}
+
+
+#header #text h4.khmer {
+    padding-bottom: 10px;
+    font-size: 20px;
+    font-family: funan;
+
+}
+
+
+
+#header #text h4.english {
+    font-size: 12px;
+}
+
+
+
+#header h4.des {
+    color: #7f4e00;
+    float: right;
+    font-size: 12px;
+    position: relative;
+    top: 50px;
+}
+
+
+
+#header #menu {
+    width: 840px;
+    float: right;
+    text-align: right;
+    padding: 0 10px 0 0;
+}
+
+#header #menu ul {
+    list-style: none;
+    padding: 0;
+}
+
+#header #menu li {
+    display: inline;
+    border-bottom: 1px dotted #900;
+}
+
+#header #menu li:hover {
+
+    display: inline;
+
+    border-bottom: 0px;
+
+}
+
+
+
+#header #menu a {
+    font-size: 11px;
+}
+
+#header #menu a:hover {
+    text-decoration: none;
+    color: #000;
+}
+
+
+
+/**********************************************
+ ------------main navigation--------------------
+ **********************************************/
+
+#navigation {
+    height: 60px;
+    width: 960px;
+    background: #831717;
+    text-align: center;
+    margin: 0;
+}
+
+#navigation ul {
+    display: table-cell;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    height: 60px;
+    margin: 0 auto;
+    width: 960px;
+}
+
+#navigation li {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#navigation a {
+    width: auto;
+    text-align: center;
+    min-width: 81px;
+    max-width: 151px;
+    height: 60px;
+    padding: 0 10px;
+    display: block;
+    color: #eee;
+    font-size: 11px;
+    height: 60px;
+    display: table-cell;
+    vertical-align: middle;
+    text-transform: uppercase;
+    text-decoration: none !important;
+}
+
+#navigation li a:hover {
+    /*background: #a31717;*/
+    background: #c67000;
+}
+
+
+/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+
+/**********************************************
+ -----------------Topic Path-------------------
+ **********************************************/
+/* #topicpath {
+    width: 940px;
+    display: block;
+    padding: 10px;
+    text-transform: uppercase;
+    border-bottom: 1px solid #ccc;
+} */
+
+/**********************************************
+ ---------------------slide---------------------
+ **********************************************/
+
+/* #bigslider {
+    margin: 10px 0 0 0;
+    width: 960px;
+    height: 254px;
+    position: relative;
+}
+
+#bigslider #introduction {
+    width: 370px;
+    margin: 10px 0;
+    padding: 20px 15px 0px 20px;
+    float: right;
+    background: url('../images/slider_bg.png');
+    height: 210px;
+}
+
+
+
+#bigslider #introduction p {
+
+    color: #000;
+} */
+
+
+
+
+
+
+
+/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+
+/**********************************************
+ --------------------footer-------------------
+ **********************************************/
+#footer {
+    width: 920px;
+    margin: 10px 0;
+    padding: 20px 20px 0px 20px;
+}
+
+#footer p {
+    text-align: center;
+}

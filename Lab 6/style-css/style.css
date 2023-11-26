@@ -1,0 +1,741 @@
+/***********************************************************************
+ * Base elements
+ **********************************************************************/
+ /* @font-face
+ {
+     font-family: funan;
+     font-style: normal;
+     font-weight: 200;
+     font-stretch: normal;
+     src: url("http://www.rupp.edu.kh/fonts/NiDAFunan.ttf") format("truetype")
+ }
+ 
+ body
+ {
+     background: #fff url('../images/body_bg.jpg') repeat-x top left;
+     font: 12px Arial,Helvetica,FreeSans,sans-serif ; 
+     
+     margin: 0; 
+ }
+ 
+ h1, h2, h3,
+ h4, h5, h6 	{ font-weight: normal; font-family: Georgia, "Times New Roman", Times, serif; }
+ h2 			{ color: #222; font-size: 16px; margin: 0px 0px 10px 0px;}
+ p			{ line-height: 18px; margin: 0px 0px 15px 0px; text-align:justify }
+ p.kh                 {font-size: 16px; line-height: 22px; margin: 0px 0px 15px 0px;}
+ a 			{color: #900;text-decoration: none;}
+ a:hover 	{ text-decoration: underline; }
+ 
+ .head
+ {
+     background: url('../images/hpg.jpg') top left repeat-x #f2f2f2;
+     border-bottom: 1px solid #ddd;
+     border-left: 1px solid #ddd;
+     border-right: 1px solid #ddd;
+     padding: 15px 10px 10px 10px;
+     margin: 5px 0;
+         margin-bottom: 10px;
+ }
+ 
+ #container{
+     width: 960px;
+     margin: 0 auto;
+ } */
+ 
+ /***********************************************************************
+  * Base classes
+  **********************************************************************/
+ .clear			{ margin: 5px 0; width: 100%; clear: both;}
+ .clear:after 	{ content: "."; display: block; height: 0; overflow:hidden; clear: both; visibility: hidden; }
+ .fl 			{ float: left; }
+ .fr				{ float: right; }
+ .center			{ text-align: center; }
+ .hidden 		{ display: none; }
+ .bold			{ font-weight: bold; }
+ .size11			{ font-size: 11px; }
+ .height14		{ line-height: 14px; } 
+ 
+ .links 		{}
+ .links li 	{ display: block; float: left; margin: 0px 10px 0px 0px;}
+ .links a 	{ display: block; }
+ .notice		{border:1px solid #c69c0a;background: #fff0bb; padding: 5px 15px; margin: 15px 5px; }
+ .notice1	{border:1px solid #c69c0a;background: #fff0bb; padding: 5px 10px; margin: 0px 5px; }
+ /**********************************************
+ ------------header---------------------------
+ **********************************************/
+ 
+ /* #header
+ {
+     width:100%;
+     height:130px;
+     background-color:#eef2f4;
+     color: #900;
+ }
+ #header #logo
+ {
+     width: 110px;
+     height: 130px;
+     display: block;
+     float: left;
+ 
+ }
+ 
+ #header #logo img {
+     margin-top: 15px;
+     border: 0;
+ }
+ 
+ #header #text
+ 
+ {	
+         
+     margin: 0;
+     
+     float: left;
+     
+     color: #333;
+     
+     text-align: left;
+     
+     vertical-align: middle;
+     
+     display: table-cell;
+     text-align: center;
+ }
+ 
+ 
+ #header #text h4
+ {
+     color: #222;
+     padding: 0;
+     
+     margin: 0 0 0 20px;
+ }
+ 
+ 
+ #header #text h4.khmer
+ 
+ {
+     padding-bottom: 10px;
+     font-size: 20px;
+     font-family: funan;
+ 
+ }
+ 
+ 
+ 
+ #header #text h4.english
+ {
+     font-size: 12px;
+ }
+ 
+ 
+ 
+ #header h4.des
+ {
+     color: #7f4e00;
+     float: right;
+     font-size: 12px;
+     position: relative;
+     top: 50px;
+ }
+ 
+ 
+ 
+ #header #menu
+ {
+     width: 840px;
+     float: right;
+     text-align: right;
+     padding: 0 10px 0 0;
+ }
+ 
+ #header #menu ul
+ {
+     list-style: none;
+     padding: 0;
+ }
+ 
+ #header #menu li
+ {
+     display: inline;
+     border-bottom: 1px dotted #900;
+ }
+ 
+ #header #menu li:hover
+ 
+ {
+ 
+     display: inline;
+ 
+     border-bottom: 0px;
+ 
+ }
+ 
+ 
+ 
+ #header #menu a
+ {
+     font-size: 11px;
+ }
+ 
+ #header #menu a:hover
+ {
+     text-decoration:  none;
+     color: #000;
+ } */
+ 
+ /**********************************************
+ ------------main navigation--------------------
+ **********************************************/
+ 
+ /* #navigation{
+     height:60px;
+     width:960px;
+     background: #831717;
+     text-align: center;
+     margin: 0;
+ }
+ 
+ #navigation ul
+ {
+     display: table-cell;
+     list-style: none;
+     margin: 0;
+     padding: 0;
+     height: 60px;
+     margin: 0 auto;
+     width: 960px;
+ } 
+ 
+ #navigation li
+ {
+     display: table-cell;
+     vertical-align: middle;
+ }
+ 
+ #navigation a
+ {
+     width: auto;
+     text-align: center;
+     min-width: 81px;
+     max-width: 151px;
+     height: 60px;
+     padding: 0 10px;
+     display: block;
+     color: #eee;
+     font-size: 11px;
+     height: 60px;
+     display: table-cell;
+     vertical-align: middle;
+     text-transform: uppercase;
+     text-decoration: none !important;
+ }
+ 
+ #navigation li a:hover
+ {
+     /*background: #a31717;//
+     background: #c67000;
+ } */
+ 
+ /**********************************************
+ -----------------Topic Path-------------------
+ **********************************************/
+ /* #topicpath
+ {
+     width: 940px;
+     display: block;
+     padding: 10px;
+     text-transform: uppercase; 
+     border-bottom: 1px solid #ccc;
+ } */
+ /**********************************************
+ ---------------------slide---------------------
+ **********************************************/
+ 
+ /* #bigslider{
+     margin: 10px 0 0 0;
+     width: 960px;
+     height: 254px;
+     position: relative;
+ }
+ 
+ #bigslider #introduction {
+     width: 370px;
+     margin: 10px 0;
+     padding: 20px 15px 0px 20px;
+     float: right;
+     background: url('../images/slider_bg.png');
+     height: 210px;
+ }
+ 
+ 
+ 
+ #bigslider #introduction p
+ {
+   
+     color: #000;
+ } */
+ 
+ /**********************************************
+ --------------------content-------------------
+ **********************************************/
+ #content{
+     width: 960px;
+ }
+ 
+ #content h2
+ {
+     color: #222;
+     text-transform: uppercase;
+     font-size: 11px;
+     margin-bottom: 10px;
+     letter-spacing: 1px;
+ }
+ 
+ #content li
+ {
+     margin-bottom: 5px;
+ }
+ 
+ #content #colleft{
+     width: 645px;
+     float: left;
+     margin: 0 5px 0 0;
+     padding: 0;
+ }
+ 
+ #content #colleft #newsproject
+ {
+     width: 625px;
+     float: left;
+ }
+ 
+ p.more 	
+ { 
+     border-bottom: 1px solid #bbb; 
+     padding: 1px 0; 
+     width: 100%; 
+     text-align: right; 
+     text-transform:uppercase; 
+     color: #8a887d; 
+     letter-spacing: 1px; 
+     font-size: 9px; 
+     margin-bottom: 20px; 
+     padding-bottom: 0;
+ }
+ 
+ p.more a
+ { 
+     border: none;
+ }
+ 
+ #content #colleft #news
+ {
+     width: 370px;
+     padding: 10px 5px;
+     float: left;
+ }
+ 
+ #content #colleft #newsfirst
+ {
+     width: 200px;
+     padding: 10px 5px;
+     float: right;
+  
+ }
+ 
+ #content #colleft #newsfirst .item p{
+   margin-right: 15px;
+ }
+ 
+ #content #colleft .item img
+ {
+ 
+     width: 165px;
+ }
+ 
+ #content #colleft .item
+ {
+     padding: 5px;
+     margin-bottom: 10px;
+ }
+ 
+ #content #colleft .item p
+ {
+     display: table-cell;
+     vertical-align: middle;
+     float: left;
+ }
+ 
+ #content #colleft #newsproject h2
+ {
+     margin: 0;
+ }
+ 
+ #content #colleft .title
+ {
+     font-size: 11px;
+     padding: 0px;
+     letter-spacing: 0;
+     margin: 0;
+     display: block;
+     text-transform: uppercase;
+ }
+ 
+ #content #colleft .date
+ {
+     font-size: 11px;
+     padding: 0;
+     margin: 0;
+     font-style: italic;
+     color: #555;
+     display: block;
+ }
+ 
+ #content #colleft #projects
+ {
+     /*width: 625px;*/
+     width: 625px;
+     margin: 10px 0;
+     padding: 10px 0;
+     float: left;
+ }
+ 
+ 
+ #content img
+ {
+     padding: 5px;
+     margin: 0 8px 5px 0;
+     border: 1px solid #ddd;
+     background: #fff;
+     text-align: left;
+     vertical-align: top;
+ }
+ 
+ 
+ #content #colright{
+     width: 295px;
+     float: right;
+ }
+ 
+ #acprogram{
+     width: 275px;
+ }
+ 
+ #photo{
+     width: 290px;
+     float: left;
+     height: 190px;
+ }
+ 
+ #video{
+     width: 275px;
+ }
+ 
+ #scholarship {
+     width: 290px;
+     float: right;
+     height: 190px;
+ }
+ 
+ #studentlife{
+     width: 275px;
+ }
+ 
+ /**********************************************
+ 
+ --------------------subscribe-------------------
+ 
+ **********************************************/
+ 
+ 
+ #subscribe
+ {
+     
+     background: #f2f2f2;
+     border: 1px solid #ddd;
+     
+     width: 645px;
+     margin: 5px 0;
+     padding: 0px;
+ 
+     float: left;
+    
+     }
+ 
+     
+ 
+ #subscribe .label
+ {
+ 
+    background: #831717;
+ 
+    width: 90px;
+     height: 125px;
+ 
+    padding: 20px;
+ 
+    border-right: 1px solid #ddd;
+ 
+    text-align: right;
+ 
+    font-size: 15px;
+ 
+    color: #fff;
+ 
+    float:left;
+ 
+    display: block;
+ 
+ }
+ 
+ 
+ 
+ #subscribe .subscr
+ {
+ 
+    width: 345px;
+     padding: 10px 0;
+     float: left;
+     display: block;
+ }
+ 
+ 
+ #subscribe form
+ {
+     width: 305px;
+     margin: 0 auto;	
+     display: block;
+ }
+ 
+ #subscribe label { 
+ 
+     display: block;
+ 
+     color: #6c6c6c;
+ 
+     font-size: 15px;
+ 
+     text-transform: none;
+ }
+ 
+ 
+ 
+ #subscribe label strong { 
+ 
+     display: block;
+ 
+     margin-bottom: 3px; 
+     
+     color: #363636;
+     font-size: 1.375em;
+ 
+     font-style: normal;
+ 
+     font-weight: normal; 
+ 
+ }
+ 
+ 
+ 
+ #subscribe p {
+ 
+     border: 10px solid #cbcbc9;
+     background: #cbcbc9;
+ 
+    padding: 0;
+     margin: 10px 0;
+ }
+ 
+ #subscribe input[type=text]
+ {
+ 
+     border: 0px;
+ 
+     width: 177px;
+ 
+     color: #777;
+ 
+     font-style: italic;
+ 
+     margin-right: -2px;
+ 
+     padding: 10px 2px;
+ 
+ }
+ 
+ #subscribe input[type=submit]
+ {
+ 
+    width: 100px;
+     border: 0px;
+     background: #831717;
+     color: #fff;
+     text-transform: uppercase;
+     margin: 0px;
+ 
+     overflow: hidden;
+     padding: 10px 0;
+ }
+ 
+ 
+ 
+ #subscribe input[type=submit]:hover
+ {
+     background: orange;
+ 
+ }
+ 
+ 
+ 
+ #subscribe .sociallink
+ {
+     width: 130px;
+     height: 145px;
+     float:left;
+     padding: 10px 10px;
+     text-transform: uppercase;
+ }
+ 
+ 
+ 
+ #subscribe ul
+ {
+     list-style: none;
+     padding: 0;
+ 
+     width: 110px;
+     margin: 0 auto;
+ }
+ 
+ 
+ 
+ #subscribe a
+ {
+     text-transform: uppercase;
+     padding: 0 0 20px 30px;
+     display: table-cell;
+     float: left;
+     vertical-align:middle;
+     background-position:  left top;
+ }
+ 
+ 
+ #subscribe .facebook
+ {
+     background: url('../images/facebook.png') no-repeat;
+ }
+ 
+ #subscribe .youtube
+ {
+     background: url('../images/youtube.png') no-repeat;
+ }
+ 
+ #subscribe .twitter
+ {
+     background: url('../images/twitter.png') no-repeat;
+ }
+ 
+ #subscribe .rss
+ {
+     background: url('../images/rss.png') no-repeat;
+ }
+ 
+ 
+ .error
+ {
+     background: #ff9c9c url('../images/false.png') no-repeat center left;
+     padding: 3px 5px 3px 20px;
+     margin-left: 20px;
+     width: 278px;
+     border: 1px solid #f00;
+     display: none;
+ }
+ #feedback
+ {
+     background: #c7f9c6 url('../images/true.png') no-repeat center left;
+     padding: 20px 5px 20px 20px;
+     margin: 10px 10px 10px 20px;
+     width: 278px;
+     border: 1px solid #12a80e;
+     display: none;
+ }
+ /**********************************************
+ --------------------footer-------------------
+ **********************************************/
+ /* #footer{
+     width: 920px;
+     margin: 10px 0;
+     padding: 20px 20px 0px 20px;
+ }
+ 
+ #footer p{
+     text-align: center;
+ } */
+ 
+ /**********************************************
+ -----------------add content-------------------
+ **********************************************/
+ h2.news-title
+ {
+     font-size: 16px;
+     text-transform: capital;
+ }
+ 
+ .general
+ {
+     padding: 10px;
+ }
+ .general a:hover
+ {
+     text-decoration: none;
+ }
+ 
+ .general a h2
+ {
+     padding: 3px 0;
+     border-bottom: 1px solid #ccc;
+ }
+ 
+ ol.number
+ {
+     margin: 30px 0;
+     text-transform: uppercase;
+ }
+ 
+ ol.number li
+ {
+     padding: 0 0 5px 0;
+     border-bottom: 1px dotted #ccc;
+ }
+ 
+ .top
+ {
+     background: url('../images/go_top.gif') no-repeat;
+     width: 33px;
+     height: 14px;
+     text-indent: 9999px;
+     display: table-cell;
+     float: right;
+ }
+ 
+ .table-general
+ {
+     padding: 5px;
+ }
+ 
+ .table-general td
+ {
+     padding: 5px;
+     vertical-align: top;
+     border-bottom: 1px dotted #ccc;
+ }
+ 
+ .table-general th
+ {
+     text-transform: uppercase;
+     font-weight: 400;
+     padding: 5px;
+     background: #ccc;
+ }

@@ -1,0 +1,207 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-color: #87ceeb;
+    /* Sky blue */
+    overflow: hidden;
+    position: relative;
+}
+
+
+
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
+
+.mountain-layer {
+    position: absolute;
+    bottom: 0;
+    right: 18%;
+    width: 100%;
+    height: 60%;
+}
+
+.mountain {
+    position: absolute;
+    bottom: 0;
+    width: 92%;
+    height: 162%;
+}
+
+.mountain1 {
+    background-color: #8b4513;
+    clip-path: polygon(0% 100%, 50% 0%, 100% 100%);
+    z-index: 3;
+}
+
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
+
+.mountain-layer2 {
+    position: absolute;
+    bottom: 0;
+    left: 30%;
+    width: 100%;
+    height: 60%;
+}
+
+.mountain-second {
+    position: absolute;
+    bottom: 0;
+    width: 72%;
+    height: 152%;
+}
+
+.mountain2 {
+    background-color: #a0522d;
+    clip-path: polygon(0% 100%, 50% 20%, 100% 100%);
+    z-index: 2;
+}
+
+/*
+.mountain3 {
+    background-color: #cd853f;
+    clip-path: polygon(0% 100%, 50% 40%, 100% 100%);
+    z-index: 1;
+} */
+
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
+
+.container-land {
+    margin-top: 600px;
+    width: 100%;
+    height: 20vh;
+    background-color: rgb(131, 212, 50);
+    /* Sky blue */
+    overflow: hidden;
+    position: relative;
+    z-index: 5;
+}
+
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
+
+.sun {
+    position: absolute;
+    top: 10%;
+    left: 37%;
+    width: 20%;
+    height: 20%;
+    border-radius: 50%;
+    background-color: rgb(234, 201, 55);
+    clip-path: circle();
+    z-index: 3;
+}
+
+.birds {
+    position: absolute;
+    top: 10%;
+    left: 67%;
+    width: 20%;
+    height: 20%;
+    background-image: url("../images/birds-flying-group.png");
+    background-repeat: no-repeat;
+    z-index: 3;
+}
+
+
+
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
+
+.roof {
+    position: absolute;
+    left: 13%;
+    bottom: 20%;
+    width: 16.3%;
+    height: 12%;
+    background-color: #560319;
+    clip-path: polygon(0% 100%, 50% 20%, 100% 100%);
+    z-index: 5;
+}
+
+.house {
+    position: absolute;
+    left: 15%;
+    bottom: 5%;
+    width: 12%;
+    height: 14.89%;
+    background-color: #fff;
+    z-index: 5;
+}
+
+.door {
+    position: absolute;
+    left: 22%;
+    bottom: 5%;
+    width: 2.2%;
+    height: 6.7%;
+    background-color: #966F33;
+    z-index: 5;
+}
+
+.window1 {
+    position: absolute;
+    left: 17.2%;
+    bottom: 8%;
+    width: 2.5%;
+    height: 3.7%;
+    background-color: #357EC7;
+    z-index: 5;
+}
+
+.window2 {
+    position: absolute;
+    left: 18%;
+    bottom: 14%;
+    width: 5.7%;
+    height: 3.7%;
+    background-color: #357EC7;
+    z-index: 5;
+}
+
+.pond {
+    position: absolute;
+    left: 29%;
+    bottom: 4%;
+    width: 180px;
+    height: 45px;
+    background-color: #66ccff;
+    border-radius: 50%;
+    clip-path: ellipse();
+    border: 4px solid #004080;
+    z-index: 5;
+}
+
+.tree {
+    position: absolute;
+    left: 42.6%;
+    bottom: 5%;
+    width: 1.5%;
+    height: 12.89%;
+    background-color: #765c48;
+    z-index: 6;
+}
+
+.leaves {
+    position: absolute;
+    left: 43.3%;
+    bottom: 12.5%;
+    width: 8.5%;
+    height: 12.89%;
+    background-color: #006400;
+    border-radius: 50%;
+    transform: translateX(-50%);
+    z-index: 5;
+}
+
+.road {
+    position: absolute;
+    bottom: -1%;
+    left: 67%;
+    width: 20%;
+    height: 20%;
+    background-image: url("../images/road.png");
+    background-repeat: no-repeat;
+    z-index: 5;
+}

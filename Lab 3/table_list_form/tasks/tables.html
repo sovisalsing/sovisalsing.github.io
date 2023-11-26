@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tables</title>
+        <link rel="stylesheet" href="../styles/styles.css">
+    </head>
+
+    <body id="tablebody">
+        <h1>Types of Table</h1>
+        <!--- TABLE 1 --->
+        <h2>Table 1</h2>
+        <table id="table1_id">
+            <tr>
+                <th colspan="6" id="td1_textcenter_id">Time Table</th>
+            </tr>
+
+            <tr>
+                <th id="td1_textcenter_id" rowspan="6">Hours</th>
+                <th id="td1_textcenter_id">Mon</th>
+                <th id="td1_textcenter_id">Tue</th>
+                <th id="td1_textcenter_id">Wed</th>
+                <th id="td1_textcenter_id">Thu</th>
+                <th id="td1_textcenter_id">Fri</th>
+            </tr>
+
+            <tr>
+                <td id="td1_textcenter_id">Science</td>
+                <td id="td1_textcenter_id">Maths</td>
+                <td id="td1_textcenter_id">Science</td>
+                <td id="td1_textcenter_id">Maths</td>
+                <td id="td1_textcenter_id">Arts</td>
+            </tr>
+
+            <tr>
+                <td id="td1_textcenter_id">Social</td>
+                <td id="td1_textcenter_id">History</td>
+                <td id="td1_textcenter_id">English</td>
+                <td id="td1_textcenter_id">Social</td>
+                <td id="td1_textcenter_id">Sports</td>
+            </tr>
+
+            <tr>
+                <th id="td1_textcenter_id" colspan="5">Lunch</th>
+            </tr>
+
+            <tr>
+                <td id="td1_textcenter_id">Science</td>
+                <td id="td1_textcenter_id">Maths</td>
+                <td id="td1_textcenter_id">Science</td>
+                <td id="td1_textcenter_id">Maths</td>
+                <td id="td1_textcenter_id" rowspan="2">Projects</td>
+            </tr>
+
+            <tr>
+                <td id="td1_textcenter_id">Social</td>
+                <td id="td1_textcenter_id">History</td>
+                <td id="td1_textcenter_id">English</td>
+                <td id="td1_textcenter_id">Social</td>
+            </tr>
+        </table>
+
+        <!--- TABLE 2 --->
+        <h2>Table 2</h2>
+        <table id="table2_id">
+            <tr>
+                <td id="td2_title_id"> Ian's Timetable</td>
+            </tr>
+            <tr>
+                <td id="td2_border_id">
+                    <table id="table2_inner_id">
+            
+                        <tr>
+                            <td colspan="3"></td>
+                            <td colspan="3"></td>
+                            <td colspan="3">Morning</td>
+                            <td colspan="3">Lunch</td>
+                            <td colspan="6">Afternoon</td>
+                            <td colspan="3">Evening</td>
+                        </tr>
+            
+                        <tr>
+                            <td colspan="3"></td>
+                                <td colspan="3"></td>
+                                <td>9-10<br>am</td>
+                                <td>10-11<br>pm</td>
+                                <td>11-12<br>pm</td>
+                                <td colspan="3">1-2<br>pm</td>
+                                <td>2-3<br>pm</td>
+                                <td>3-4<br>pm</td>
+                                <td>4-5<br>pm</td>
+                                <td colspan="3">5-6pm</td>
+                                <td>6-7<br>pm</td>
+                                <td>7-8<br>pm</td>
+                            <td>8-9<br>pm</td>
+                        </tr>
+            
+                        <tr id="td2_textcenter_id">
+                            <td rowspan="2" colspan="3">Work</td>
+                            <td colspan="3">Monday</td>
+                            <td colspan="3">Development Meeting</td>
+                            <td colspan="3"></td>
+                            <td colspan="3">Client Meeting</td>
+                            <td colspan="3">commute</td>
+                            <td colspan="3">Free</td>
+                        </tr>
+            
+                        <tr id="td2_textcenter_id" >
+                            <td colspan="3">Tuesday</td>
+                            <td colspan="3">in Office</td>
+                            <td colspan="3"></td>
+                            <td colspan="9">in Office</td>
+                        </tr>
+            
+                        <tr id="td2_textcenter_id">
+                            <td rowspan="2" colspan="3">Lecture</td>
+                            <td colspan="3">Wednesday</td>
+                            <td colspan="3">CSC205</td>
+                            <td colspan="3"></td>
+                            <td colspan="9">preparation</td>
+                        </tr>
+            
+                        <tr id="td2_textcenter_id">
+                            <td colspan="3"><br>Thursday<br><br></td>
+                            <td colspan="3">MAM200</td>
+                            <td colspan="3"></td>
+                            <td colspan="3">Tutorials for MAM200</td>
+                            <td colspan="6">Free</td>
+                        </tr>
+            
+                        <tr id="td2_textcenter_id">
+                            <td colspan="3">Research</td>
+                            <td colspan="3">Friday</td>
+                            <td colspan="3">Research</td>
+                            <td colspan="3"></td>
+                            <td colspan="9">Research</td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+
+        <!--- TABLE 3 --->
+        <h2>Table 3</h2>
+        <table id="table3_id">
+            <tr>
+                <td id="td3_id" style="background-color: aqua;  width: 29%;" rowspan="2">No</td>
+                <td id="td3_id" style="background-color: aqua; width: 40%;">problem</td>
+                <td id="td3_id" style="background-color: aqua; width: 15%;">for</td> 
+                <td id="td3_id" style="background-color: aqua;  width: 22%;">a web</td>
+            </tr>
+
+            <tr>
+                <td id="td3_id" style="background-color: rgb(47, 255, 75); width: 40%;">Professional</td>
+                <td id="td3_id" rowspan="3" colspan="2" style="background-color: rgb(47, 255, 75);">as</td>
+            </tr>
+
+            <tr>
+                <td id="td3_id" colspan="2" style="background-color: rgb(241, 232, 58); ">you</td>
+            </tr>
+
+            <tr>
+                <td id="td3_id" style="background-color: rgb(239, 64, 64); ">will</td>
+                <td id="td3_id" rowspan="2" style="background-color: rgb(239, 64, 64); width: 40%;">see</td>
+            </tr>
+
+            <tr>
+                <td id="td3_id" style="background-color: rgb(155, 122, 187); ">in</td>
+                <td id="td3_id" style="background-color: rgb(155, 122, 187); width: 15%;">a few</td>
+                <td id="td3_id" style="background-color: rgb(155, 122, 187); width: 22%;">minutes!</td>
+            </tr>
+        </table>
+
+        <!--- TABLE 4 --->
+        <h2>Table 4</h2>
+        <table>
+            <tr>
+                <table id="table4_id">
+                    <tr>
+                        <td id="td4_id" style="width: 20%; height: 20%; background-color: rgb(79, 211, 79);" colspan="2" rowspan="2"></td>
+                        <td id="td4_id"  style="width: 40%; background-color: rgb(210, 51, 51);" colspan="4" rowspan="4"></td>             
+                        <td id="td4_id" style="width: 20%; height: 20%; background-color: rgb(79, 211, 79);" colspan="2" rowspan="2"></td>
+                    </tr> 
+        
+                    <tr></tr>
+        
+                    <tr>
+                        <td id="td4_id"  style="width: 20%; height: 20%; background-color: rgb(79, 211, 79);" colspan="2" rowspan="2"></td>              
+                        <td id="td4_id"  style="width: 20%; height: 20%; background-color: rgb(79, 211, 79); " colspan="2" rowspan="2"></td>
+                    </tr>  
+        
+                    <tr></tr>
+                </table>
+            </tr>
+
+            <tr>
+                <table id="table4_id">
+                    <tr>
+                        <td id="td4_id"  style="width: 40%; background-color: rgb(210, 51, 51);" colspan="4" rowspan="4"></td>
+        
+                        <td id="td4_id" style="width: 20%; height: 20%; background-color: rgb(79, 211, 79);" colspan="2" rowspan="2"></td>             
+                        <td id="td4_id" style="width: 10%; height: 10%; padding:2.5px; background-color: rgb(16, 122, 154);"></td>
+                        <td id="td4_id" style="width: 10%; height: 10%; padding:2.5px; background-color: rgb(16, 122, 154);"></td>
+                    </tr> 
+        
+                    <tr>
+                        <td id="td4_id" style="width: 10%; height: 10%; padding:2.5px; background-color: rgb(16, 122, 154);"></td>
+                        <td id="td4_id" style="width: 10%; height: 10%; padding:2.5px; background-color: rgb(16, 122, 154);"></td>
+                    </tr>
+        
+                    <tr>
+                        <td id="td4_id" style="width: 20%; height: 20%; background-color: rgb(79, 211, 79);" colspan="2" rowspan="2"></td>              
+                        <td id="td4_id" style="width: 20%; height: 20%; background-color: rgb(79, 211, 79); " colspan="2" rowspan="2"></td>
+                    </tr>  
+        
+                    <tr></tr>
+                </table>
+            </tr>
+        </table>
+    </body>
+
+    <footer>
+        <br>
+        <p><a href="../index.html">[Back to Home Page]</a></p>
+        <div class="blueclass">
+            <br>
+            <p>
+                <span>&copy; Copy Right by SO VISALSING</span><br>
+                Subject: Web Development<br>
+                Lab 3 | Task 1: Creates Tables
+            </p>
+            <br>
+        </div>
+    </footer>
+</html>

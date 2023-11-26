@@ -1,0 +1,120 @@
+body {
+    background-color: whitesmoke;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 2000px;
+}
+
+/* ================================================================== Tables ================================================================== */
+#tablebody {
+    background-color: whitesmoke;
+    max-width: 2000px;
+    margin-left: 60px;
+    margin-right: 60px;
+    max-height: 1000px;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td { font-family: Arial; }
+
+/* .blueclass {
+    color:rgb(0, 162, 255);
+} */
+
+/* ***************** Table 1 ***************** */
+#table1_id {
+    width:23%; 
+    border-collapse: collapse;
+}
+#td1_textcenter_id {
+    text-align: center;
+}
+
+/* ***************** Table 2 ***************** */
+#table2_id {
+    width: 10%; 
+    border: none;
+}
+
+#td2_title_id {
+    text-align: center;
+    border: none;
+}
+#td2_textcenter_id {
+    text-align: center;
+}
+#td2_border_id {
+    border: none;
+}
+
+#table2_inner_id {
+    width: 10%;
+}
+
+/* ***************** Table 3 ***************** */
+#table3_id {
+    border: 1px solid black;
+    width: 36.3%; 
+    border-collapse: collapse;
+    text-align: center;
+}
+
+#td3_id {
+    border: 1px solid black;
+    padding: 22.5px;
+    border-collapse: collapse;
+    text-align: center;
+    font-size: 11px;
+}
+
+/* ***************** Table 4 ***************** */
+#table4_id {
+    width: 40%;
+    border: 1px solid black;
+}
+
+#td4_id {
+    padding-top: 75px;
+    padding-bottom: 60px;
+    border: 1px solid black;
+    border-style: outset;
+}
+
+/* ================================================================== Lists ================================================================== */
+#listbody {
+    background-color: whitesmoke;
+    max-width: 2000px;
+    margin-left: 60px;
+    margin-right: 60px;
+    max-height: 1000px;
+}
+
+.font_class {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#disc_id{
+    list-style-type:disc;
+}
+
+#circle_id{
+    list-style-type:circle;
+}
+
+#square_id
+ {
+    list-style-type: square;
+}
+
+#none_id
+ {
+    list-style-type: none;
+}
+
+.blueclass {
+    color:rgb(0, 162, 255);
+}

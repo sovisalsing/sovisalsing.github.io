@@ -1,0 +1,100 @@
+#center_title {
+    text-align: center;
+}
+
+/* =========================================================================================================== */
+
+.audio_mp3 {
+    /* display: flex; */
+    display: table-cell;
+    /* align-items: center;
+        justify-content: center; */
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+}
+
+audio {
+   width: 500px;
+}
+
+.audio_mp3,
+.audio_mp3div,
+html {
+    height: 100%;
+    width: 100%;
+}
+
+.audio_mp3div {
+    display: table;
+    margin-bottom: 50px;
+}
+
+/* =========================================================================================================== */
+
+.videosYT {
+    /* display: flex; */
+    display: table-cell;
+    /* align-items: center;
+        justify-content: center; */
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+}
+
+iframe {
+    width: 880px;
+    height: 600px;
+}
+
+.videosYT,
+.videosTVdiv,
+html {
+    height: 100%;
+    width: 100%;
+}
+
+.videosTVdiv {
+    display: table;
+    margin-bottom: 50px;
+}
+
+/* ================================================================================================== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+    --bg-color: #1f242d;
+    --second-bg-color: #323946;
+    --text-color: #fff;
+    --main-color: #0ef;
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 2rem 9%;
+    background: var(--second-bg-color);
+}
+
+.footer-text p {
+    font-size: 1.6rem;
+}
+

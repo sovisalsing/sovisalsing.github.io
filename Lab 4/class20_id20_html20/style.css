@@ -1,0 +1,262 @@
+body {
+    /* background-color: white; */
+    max-width: 1250px;
+    margin: 10vw;
+    margin-top: 0;
+    margin-bottom: 0;
+    height: auto;
+    /* margin-left: 6.5%;
+    margin-right: 6.5%; */
+}
+
+/* ================================================================================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+    --bg-color: #1f242d;
+    --second-bg-color: #323946;
+    --text-color: #fff;
+    --main-color: #0ef;
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 2rem 9%;
+    background: var(--bg-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.header.sticky {
+    border-bottom: .1rem solid rgba(0, 0, 0, 0.2);
+}
+
+.logo {
+    font-size: 2.5rem;
+    color: var(--text-color);
+    font-weight: 600;
+    cursor: default;
+}
+
+.navbar a {
+    font-size: 1.7rem;
+    color: var(--text-color);
+    margin-left: 4rem;
+    transition: .3s;
+}
+
+.navbar a:hover,
+.navbar a.active {
+    color: var(--main-color);
+}
+
+/* ================================================================================= */
+
+.colors_texts_all1 {
+    color: #ff6347;
+    background-color: #422313;
+}
+
+.colors_texts_all2 {
+    color: #40e0d0;
+    background-color: rgb(0, 81, 105);
+}
+
+.colors_texts_all3 {
+    color: #d8bfd8;
+    background-color: rgb(89, 0, 105);
+}
+
+.colors_texts_all4 {
+    color: #008080;
+    background-color: rgb(67, 218, 175);
+}
+
+.colors_background0 {
+    background-color: #0ef;
+}
+
+.colors_background1 {
+    background-color: #7fffd4;
+}
+
+.colors_background2 {
+    background-color: #90EE90;
+}
+
+.colors_fonts_all {
+    color: #000;
+}
+
+.allfonts {
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+.color_fonts1 {
+    color: #36454F;
+}
+
+.color_fonts2 {
+    color: #4d364f;
+}
+
+.fontstyle1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.fontstyle2 {
+    font-size: 15px;
+}
+
+.fontstyle3 {
+    font-weight: 600;
+}
+
+.fontstyle4 {
+    font-size: 30px;
+}
+
+.wholebackground {
+    background-color: rgb(157, 196, 230);
+    height: 100%;
+}
+
+
+/* ============================================================================================= */
+
+.center-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* ============================================================================================= */
+
+.audio_mp3 {
+    /* display: flex; */
+    display: table-cell;
+    /* align-items: center;
+    justify-content: center; */
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+}
+
+audio {
+    width: 500px;
+}
+
+
+
+.audio_mp3,
+.audio_mp3div,
+html {
+    height: 100%;
+    width: 100%;
+}
+
+.audio_mp3div {
+    display: table;
+    margin-bottom: 50px;
+}
+
+/* ============================================================================================= */
+
+#center_title {
+    text-align: center;
+}
+
+#padding_background {
+    padding: 20px 35px 10px 35px;
+}
+
+#padding_first {
+    padding: 5px 20px 5px 20px;
+}
+
+#margin_down {
+    margin: 70px 0 0 0;
+}
+
+#title_lg {
+    font-size: 25px;
+}
+
+/* ================================================================================================= */
+
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(195, 27, 27);
+}
+
+h4 {
+    color: rgb(234, 234, 72);
+}
+
+h5 {
+    color: rgb(67, 218, 112)
+}
+
+h6 {
+    color: #d369dd;
+}
+
+/* ================================================================================================== */
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 2rem 9%;
+    background: var(--second-bg-color);
+}
+
+.footer-text p {
+    font-size: 1.6rem;
+}
+
+.footer-iconTop a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: .8rem;
+    background: var(--main-color);
+    border-radius: .8rem;
+    transform: .5s ease;
+}
+
+.footer-iconTop a:hover {
+    box-shadow: 0 0 1rem var(--main-color);
+}
+
+.footer-iconTop a i {
+    font-size: 2.4rem;
+    color: var(--second-bg-color);
+}

@@ -1,0 +1,115 @@
+body {
+    /* display: block;
+    max-width: 1050px;
+    // max-width: max-content; //
+    margin: auto;
+    max-height: auto; */
+
+    display: block;
+    padding: 20px;
+    max-width: max-content;
+    margin: 0 auto;
+    /* Set vertical margin to 0 and horizontal margin to auto */
+    /* max-height: auto; */
+    height: 100vh;
+
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Noto+Sans+TC:wght@200;300;500&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Noto+Sans+Khmer&family=Noto+Sans+TC:wght@200;300;500&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Noto+Sans+TC&family=Noto+Sans+TC:wght@200;300;500&family=Roboto&display=swap');
+
+.container {
+    float: left;
+    width: 300px;
+    padding: 20px;
+    padding-bottom: 30px;
+    background-color: #f2f2f2;
+    margin: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+p {
+    word-wrap: break-word;
+}
+
+#english {
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+#khmer {
+    font-family: 'Josefin Sans', 'Noto Sans Khmer', 'Noto Sans TC', 'Roboto', sans-serif;
+}
+
+@font-face {
+    font-family: 'Noto Sans Khmer';
+    src: url('path/fonts/khmer_fonts/Noto_Sans_Khmer/NotoSansKhmer-VariableFont_wdth\,wght.ttf') format('truetype');
+}
+
+#taiwanese-mandarin {
+    font-family: Noto Sans TC;
+}
+
+@font-face {
+    font-family: 'Noto Sans TC';
+    src: url('path/fonts/taiwanese_fonts/Noto_Sans_TC/NotoSansTC-VariableFont_wght.ttf') format('truetype');
+}
+
+/*  ================================================================================================== */
+
+.footer {
+    color: #000000;
+    background-color: #808080;
+    width: auto;
+    height: 70px;
+    padding: 5px;
+    text-align: center;
+    margin-top: 770px;
+    /* Add additional styles as needed */
+}
+
+.footer p {
+    word-wrap: normal;
+}
+
+/*  ================================================================================================== */
+
+@media (max-width: 992px) {
+
+    /* Medium devices */
+    .container {
+        width: 250px;
+        padding: 15px;
+        padding-bottom: 25px;
+
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    body {
+        max-width: 90%;
+    }
+}
+
+@media (max-width: 1200px) {
+
+    /* Large devices */
+    .container {
+        width: 350px;
+        padding: 25px;
+        padding-bottom: 35px;
+
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    body {
+        max-width: 95%;
+    }
+}

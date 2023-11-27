@@ -1,0 +1,23 @@
+.border-images {
+    border: 15px solid black;
+    width: 700px;
+    color: #000;
+}
+
+.border-images img {
+    width: 700px;      
+}
+
+.border-images p {
+    position: absolute;
+    width: 290px;
+    height: 378px;
+    background-color: rgb(54, 191, 236, 0.4);
+    margin: 0;
+    padding: 10px;
+}
+
+span {
+    font-size: 16px;
+    font-weight: 500;
+}

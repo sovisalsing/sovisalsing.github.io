@@ -1,0 +1,13 @@
+body {
+    max-width: 1200px;
+    margin: 50px auto;
+    font-size: 4.5rem;
+}
+
+ul.a {
+    list-style-image: url('../images/women.png');
+}
+
+ul.b {
+    list-style-image: url('../images/lilycat.png');
+}
